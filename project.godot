@@ -11,6 +11,7 @@ config_version=5
 [application]
 
 config/name="Game Template"
+config/version="1.0"
 run/main_scene="res://scenes/opening/opening_with_logo.tscn"
 config/features=PackedStringArray("4.4")
 config/icon="res://icon.png"
@@ -88,3 +89,29 @@ renderer/rendering_method="gl_compatibility"
 renderer/rendering_method.mobile="gl_compatibility"
 textures/vram_compression/import_etc2_astc=true
 environment/defaults/default_environment="res://default_env.tres"
+
+[xogot]
+
+project/editorState=[{
+"column": 0,
+"line": 0,
+"path": "res://override.cfg",
+"type": "file"
+}, {
+"column": 0,
+"line": 0,
+"path": "res://scenes/menus/main_menu/main_menu_with_animations.gd",
+"type": "file"
+}, {
+"column": 0,
+"current": true,
+"line": 0,
+"path": "res://scenes/menus/main_menu/main_menu.gd",
+"type": "file"
+}, {
+"column": 0,
+"line": 0,
+"path": "res://addons/maaacks_game_template/base/scripts/capture_focus.gd",
+"type": "file"
+}]
+project/breakpoints={}
